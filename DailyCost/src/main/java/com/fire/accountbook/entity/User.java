@@ -7,6 +7,5 @@ import lombok.Data;
 @Data
 @Entity(name = "t_user")
 public class User {
-	
-
+	private String userName;
 }
