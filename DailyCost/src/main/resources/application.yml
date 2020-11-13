@@ -1,0 +1,1 @@
+spring:  profiles:    active:    - dev  application:     name: account_book  datasource:    url: "jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/$"   
